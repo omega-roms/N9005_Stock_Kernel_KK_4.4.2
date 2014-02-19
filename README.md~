@@ -42,6 +42,6 @@ $ make
 
 $ tar cvf SM-N9005_Kernel.tar zImage
 
-**** Output files
+**** Clean
 
 $ make clean
