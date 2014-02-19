@@ -8,7 +8,7 @@ HOW TO BUILD KERNEL 3.4.39 FOR SM-N9005
 
     download kernel source
 
-$ https://github.com/omega-roms/N9005_Stock_Kernel_KK_4.4.2.git
+$ git clone https://github.com/omega-roms/N9005_Stock_Kernel_KK_4.4.2.git
 
     get Toolchain
 
@@ -41,3 +41,7 @@ $ make
     type following command
 
 $ tar cvf SM-N9005_Kernel.tar zImage
+
+**** Clean
+
+$ make clean
